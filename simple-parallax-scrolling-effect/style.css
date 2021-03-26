@@ -51,3 +51,10 @@ section img {
     object-fit: cover;
     pointer-events: none;
 }
+
+#text {
+    position: relative;
+    color: #fff;
+    font-size: 10em;
+    z-index: 1;
+}
