@@ -1,0 +1,21 @@
+html {
+    /* box-sizing prevents scrollbars to appear when adding padding to something that goes outside the extremes */
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #0a2a43;
+    min-height: 1500px;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
