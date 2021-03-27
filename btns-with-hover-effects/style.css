@@ -1,0 +1,45 @@
+html {
+    /* box-sizing prevents scrollbars to appear when adding padding to something that goes outside the extremes */
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    margin-top: 360px;
+}
+
+.btn {
+    border: 1px solid #3498db;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn1,.btn2{
+    color: #3498db;
+}
+
+.btn3,.btn4{
+    color: #fff;
+}
+
+.btn1:hover,
+.btn2:hover {
+    color: #fff;
+}
+
+.btn3:hover,
+.btn4:hover {
+    color: #3498db;
+}
+
