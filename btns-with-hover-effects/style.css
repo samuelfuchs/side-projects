@@ -8,10 +8,14 @@ body {
     min-height: 100vh;
 }
 
+/* Giving container some space */
+
 .container {
     text-align: center;
     margin-top: 360px;
 }
+
+/* Buttons */
 
 .btn {
     border: 1px solid #3498db;
