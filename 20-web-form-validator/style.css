@@ -1,9 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 html {
-    /* box-sizing prevents scrollbars to appear when adding padding to something that goes outside the extremes */
-    box-sizing: border-box;
+	/* box-sizing prevents scrollbars to appear when adding padding to something that goes outside the extremes */
+	box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    min-height: 100vh;
+	margin: 0;
+	background-color: #f9fafb;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0;
+}
+
+.container {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+	width: 400px;
+}
+
+h2 {
+	text-align: center;
+	margin: 0 0 20px;
+}
+
+.form {
+	padding: 30px 40px;
+}
+
+.form-control {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.form-control label {
+	color: #777;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.form-control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	width: 100%;
+	padding: 10px;
+	font-size: 14px;
 }
