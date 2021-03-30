@@ -24,33 +24,16 @@ function isValidEmail(email) {
 	return re.test(String(email).toLowerCase())
 }
 
+// Check required fields
+function checkRequired(inputArr) {
+	inputArr.forEach(function (input) {
+		console.log(input.value)
+	})
+}
+
 // Event Listeners
 form.addEventListener('submit', function (e) {
 	e.preventDefault()
 
-	if (username.value === '') {
-		showError(username, 'Username is Required')
-	} else {
-		showSuccess(username)
-	}
-
-	if (email.value === '') {
-		showError(email, 'Email is Required')
-	} else if (!isValidEmail(email.value)) {
-		showError(email, 'Email is not valid')
-	} else {
-		showSuccess(email)
-	}
-
-	if (password.value === '') {
-		showError(password, 'Password is Required')
-	} else {
-		showSuccess(password)
-	}
-
-	if (password2.value === '') {
-		showError(password2, 'Password2 is Required')
-	} else {
-		showSuccess(password2)
-	}
+	checkRequired([username, email, password, password2])
 })
