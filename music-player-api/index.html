@@ -17,6 +17,34 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
+		<h1>Musik Player</h1>
+
+		<div class="music-container" id="music-container">
+			<div class="music-info">
+				<h4 id="title"></h4>
+				<div class="progress-container" id="progress-container">
+					<div class="progress" id="progress"></div>
+				</div>
+			</div>
+
+			<audio src="music/ukulele.mp3" id="audio"></audio>
+
+			<div class="img-container">
+				<img src="images/ukulele.jpg" alt="music-conver" id="cover" />
+			</div>
+
+			<div class="navigation">
+				<button id="prev" class="action-btn">
+					<i class="fas fa-backward"></i>
+				</button>
+				<button id="play" class="action-btn action-btn-big">
+					<i class="fas fa-play"></i>
+				</button>
+				<button id="next" class="action-btn">
+					<i class="fas fa-forward"></i>
+				</button>
+			</div>
+		</div>
 		<!-- script -->
 		<script src="script.js"></script>
 	</body>
