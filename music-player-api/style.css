@@ -87,3 +87,43 @@ body {
 .action-btn:focus {
 	outline: 0;
 }
+
+.music-info {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 15px 15px 0 0;
+	position: absolute;
+	top: 0;
+	left: 20px;
+	width: calc(100% - 40px);
+	padding: 10px 10px 10px 150px;
+	opacity: 0;
+	transform: translateY(0%);
+	transition: transform 0.3s ease-in, opacity 0.3s ease-in;
+	z-index: 0;
+}
+
+.music-container.play .music-info {
+	opacity: 1;
+	transform: translateY(-100%);
+}
+
+.music-info h4 {
+	margin: 0;
+}
+
+.progress-container {
+	background: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 10px 0;
+	height: 4px;
+	width: 100%;
+}
+
+.progress {
+	background-color: #fe8daa;
+	border-radius: 5px;
+	height: 100%;
+	width: 40%;
+	transition: width 0.1s linear;
+}
