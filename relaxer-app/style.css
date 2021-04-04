@@ -37,3 +37,21 @@ body {
 	left: 0;
 	z-index: -1;
 }
+
+.gradient-circle {
+	background: conic-gradient(
+		#55b7a4 0%,
+		#4ca493 40%,
+		#fff 40%,
+		#fff 60%,
+		#336d62 60%,
+		#2a5b52 100%
+	);
+	height: 320px;
+	width: 320px;
+	z-index: -2;
+	border-radius: 50%;
+	position: absolute;
+	top: -10px;
+	left: -10px;
+}
