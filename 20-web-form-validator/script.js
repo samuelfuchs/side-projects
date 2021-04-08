@@ -70,6 +70,7 @@ function getFieldname(input) {
 
 // Event Listeners
 form.addEventListener('submit', function (e) {
+	// prevent default
 	e.preventDefault()
 
 	checkRequired([username, email, password, password2])
