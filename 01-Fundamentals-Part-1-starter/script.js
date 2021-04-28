@@ -80,7 +80,7 @@ console.log(ageSarah >= 18)
 const isFullAge = ageSarah >= 18
 
 console.log(now - 1991 > now - 2018)
-*/
+
 // Operator Precedence
 const now = 2037
 const ageSamuel = now - 1990
@@ -96,3 +96,27 @@ console.log(x, y)
 
 const averageAge = (ageSamuel + ageSarah) / 2
 console.log(ageSamuel, ageSarah, averageAge)
+*/
+
+// Strings and Template Literals
+const firstName = 'Samuel'
+const job = 'teacher'
+const birthYear = 1990
+const year = 2037
+
+const samuel =
+	"I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!'
+console.log(samuel)
+
+const samuelNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`
+console.log(samuelNew)
+
+console.log(`Just a regular string...`)
+
+console.log('String with \n\
+multiple \n\
+lines')
+
+console.log(`String
+multiple
+lines`)
