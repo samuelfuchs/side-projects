@@ -1,10 +1,13 @@
 // Values and Variables
-let country = 'Brazil'
-let continent = 'South America'
+const country = 'Brazil'
+const continent = 'South America'
 let population = '211'
 
 // Data Types
-let isIsland = false
+const isIsland = false
 let language
+
+// let, const and var
+language = 'Portuguese'
 
 console.log(isIsland, population, country, language, continent)
