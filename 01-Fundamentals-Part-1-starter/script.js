@@ -35,7 +35,7 @@ year = 1991
 console.log(typeof year)
 
 console.log(typeof null)
-*/
+
 // let, const and var
 let age = 30
 age = 31
@@ -49,3 +49,34 @@ job = 'teacher'
 
 lastName = 'Fuchs'
 console.log(lastName)
+*/
+// Basic Operators
+
+//Math operators
+const now = 2037
+const ageSamuel = now - 1990
+const ageSarah = now - 2018
+console.log(ageSamuel, ageSarah)
+
+console.log(ageSamuel * 2, ageSamuel / 10, 2 ** 3)
+
+const firstName = 'Samuel'
+const lastName = 'Fuchs'
+console.log(firstName + ' ' + lastName)
+
+// Assignment operators
+let x = 10 + 5
+x += 10 // x = x + 10 = 25
+x *= 4 // x = x * 4 = 100
+x++ // x = x + 1
+x--
+x--
+console.log(x)
+
+// Comparison operators
+console.log(ageSamuel > ageSarah) // <, >, <=, >=
+console.log(ageSarah >= 18)
+
+const isFullAge = ageSarah >= 18
+
+console.log(now - 1991 > now - 2018)
