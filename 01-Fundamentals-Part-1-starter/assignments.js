@@ -1,3 +1,4 @@
+/*
 // Values and Variables
 const country = 'Brazil'
 const continent = 'South America'
@@ -43,3 +44,19 @@ console.log(
 	continent,
 	description
 )
+*/
+
+// Coding Challenge #1
+const weightMark = 95
+const heightMark = 1.88
+
+const weightJohn = 85
+const heightJohn = 1.76
+
+const bmiMark = weightMark / heightMark ** 2
+console.log(bmiMark)
+const bmiJohn = weightJohn / heightJohn ** 2
+console.log(bmiJohn)
+
+const markHigherBMI = bmiMark > bmiJohn
+console.log(markHigherBMI)
